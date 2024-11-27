@@ -1,0 +1,91 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .checkout-page {
+        margin: 60px auto 0px;
+        padding: 40px;
+        /* margin-top: 40px; */
+        background-color: #F2F2F2;
+        border-top: 1px solid #C9C9C9;
+        /* padding: 60px;
+        background-color: #F2F2F2;
+        border-top: 1px solid #C9C9C9; */
+    }
+    
+    .address {
+        width: 893px;
+        height: 584px;
+        border-radius: 16px;
+        border: 2px solid #C1C1C1;
+        background-color: #ffffff;
+        padding: 30px;
+    }
+    
+    .address p {
+        color: #1E1E1E;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+    
+    form {
+        margin-top: 40px;
+    }
+    
+    .mp3 label {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        color: #1E1E1E;
+        ;
+    }
+    
+    .payment {
+        width: 893px;
+        height: 633px;
+        border-radius: 16px;
+        border: 2px solid #C1C1C1;
+        background-color: #fff;
+        margin-top: 40px;
+        padding: 30px;
+    }
+    
+    .payment .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 40px 0px 40px 0px;
+    }
+    
+    .payment .buttons .active {
+        background-color: #FEA301;
+        color: #fff;
+    }
+    
+    .payment .buttons button {
+        background-color: #fff;
+        color: #808080;
+        width: 266px;
+        height: 136px;
+        /* padding: 32px 10px 32px 10px; */
+        border-radius: 8px;
+        border: 1px solid #222222;
+    }
+    
+    .payment .pay {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+    
+    .order-summary {
+        background-color: #ffffff;
+        border-radius: 16px;
+        border: 2px solid #C1C1C1;
+        height: auto;
+        /* Adjust height dynamically */
+    }
