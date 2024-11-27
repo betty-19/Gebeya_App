@@ -6,7 +6,7 @@
 }
 
 header {
-    max-width: 1352px;
+    /* max-width: 1352px; */
     width: 100%;
     height: 46.5px;
     padding-top: 24px;
@@ -58,9 +58,16 @@ header {
     height: 100px;
 }
 
-.logo img {
-    width: 32px;
-    height: 32px;
+.logo {
+    /* width: 32px;
+    height: 32px; */
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo i {
+    font-size: 60px;
 }
 
 .search {
@@ -185,10 +192,10 @@ header {
 
 .gebeya {
     background: #882BECF2;
-    max-width: 1512px;
+    /* max-width: 1512px; */
     width: 100%;
     height: 769px;
-    margin: 90px auto;
+    margin-top: 90px;
     gap: 20px;
     opacity: 0px;
     display: flex;
@@ -225,7 +232,7 @@ header {
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 .gebeya .col-two button {
@@ -239,6 +246,7 @@ header {
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
+    margin-top: 0;
     transition: all 0.3s ease;
 }
 
@@ -618,8 +626,11 @@ opacity: 0px; */
 
 .items-grid .items-card a {
     /* font-family: Poppins; */
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
+    text-decoration: none;
+    color: #808080;
+    /* background-color: #1E1E1E; */
     /* line-height: 24px;
 text-align: left;
 text-underline-position: from-font;
@@ -796,7 +807,7 @@ footer {
     opacity: 0px; */
 }
 
-.contacts img {
+.contacts .logo {
     width: 230px;
     height: 230px;
     /* top: 73px;
@@ -810,7 +821,8 @@ footer .contacts {
     display: block;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    /* justify-content: center; */
 }
 
 .information {
