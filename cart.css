@@ -46,6 +46,8 @@
     border-radius: 16px;
     border: 2px solid #C1C1C1;
     background-color: #fff;
+
+    overflow: hidden; 
 }
 
 .pay-ret,
