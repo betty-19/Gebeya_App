@@ -123,23 +123,23 @@ header {
     height: 20px;
     border-radius: 50%;
 }
+.cart {
+    position: relative;
+}
 .cart .cart-circle {
     Width: 44px;
     Height: 44px;
     border-radius: 1000px;
     background-color: #882BEC;
     position: relative;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cart .cart-circle i {
-    width: 24px;
-    height: 24px;
-    top: 12px;
-    left: 13px;
-    gap: 0px;
-    opacity: 0px;
-    color: #fff;
-    position: absolute;
+   color: #fff;
+    font-size: 20px;
 }
 
 .cart-circle .count {
@@ -148,24 +148,16 @@ header {
     height: 16px;
     left: 25px;
     top: -5px;
-    gap: 0px;
-    opacity: 0px;
     position: absolute;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cart-circle .count p {
-    width: 6px;
-    height: 12px;
-    top: 3px;
-    left: 5px;
-    font-size: 10px;
+  font-size: 10px;
     font-weight: 400;
-    line-height: 12px;
-    text-align: center;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    color: #fff;
-    position: absolute
+    color:#fff
 }
 
 /* Gebeyaaa */
